@@ -17,8 +17,8 @@ function AutoCounter() {
     return (
        <div><div className='container border border-4 ' style={{marginTop:'200px', borderRadius:"20px"}}>
         <div className='text-center'>
-            <h1 className="text-success m-4 p-3">Automatic Counter-App</h1>
-            <h2 className='fw-bolder'>{count}</h2>
+            <h1 className="text-light m-4 p-3">Automatic Counter-App</h1>
+            <h2 className='fw-bolder text-light'>{count}</h2>
             <div>
             <button  className="m-4 btn btn-danger" onClick={() => setCount(0)}>Reset</button>
             </div>
