@@ -15,11 +15,17 @@ function AutoCounter() {
     }, []);
 
     return (
-        <div>
-            <h1>Automatic Counter</h1>
-            <h2>{count}</h2>
-            <button className="reset-button" onClick={() => setCount(0)}>Reset</button>
+       <div><div className='container border border-4 ' style={{marginTop:'200px', borderRadius:"20px"}}>
+        <div className='text-center'>
+            <h1 className="text-success m-4 p-3">Automatic Counter-App</h1>
+            <h2 className='fw-bolder'>{count}</h2>
+            <div>
+            <button  className="m-4 btn btn-danger" onClick={() => setCount(0)}>Reset</button>
+            </div>
+            
         </div>
+       </div>
+      </div>
 
     );
 }
