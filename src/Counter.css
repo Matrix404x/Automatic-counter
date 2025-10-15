@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #7c8ba7, #2a5298);
+}
+
+.reset-button {
+  display: flex;
+  align-items: center;
+  justify-content: center ;
+  padding: 10px 20px;
+  font-size: 16px;
+  color: white;
+  background-color: #ff4b5c;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
